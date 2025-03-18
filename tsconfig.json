@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/chat-api-e2e"
+    },
+    {
+      "path": "./apps/chat-api"
+    },
+    {
+      "path": "./apps/chat-web"
+    },
+    {
+      "path": "./libs/shared/ui"
+    }
+  ]
+}
