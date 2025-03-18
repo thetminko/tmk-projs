@@ -1,12 +1,12 @@
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
-import { Ui } from '@tmk-projs/ui';
+import { Button } from '@tmk-projs/ui';
 
 export function App() {
   return (
     <div>
-      <Ui />
+      <Button>Click Me</Button>
       <NxWelcome title="@tmk-projs/chat-web" />
 
       {/* START: routes */}
