@@ -5,11 +5,11 @@ const config = {
   singleQuote: true,
   semi: true,
   bracketSpacing: true,
-  arrowParens: "avoid",
-  trailingComma: "none",
+  arrowParens: 'avoid',
+  trailingComma: 'none',
   bracketSameLine: true,
   printWidth: 120,
-  quoteProps: "consistent",
+  quoteProps: 'consistent'
 };
 
 module.exports = config;

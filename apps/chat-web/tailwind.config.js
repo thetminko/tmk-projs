@@ -5,12 +5,9 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    join(
-      __dirname,
-      '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}'
-    ),
+    join(__dirname, '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}'),
     ...createGlobPatternsForDependencies(__dirname),
-    '../../libs/shared/ui/src/components/**/*.{ts,tsx,html}',
+    '../../libs/shared/ui/src/components/**/*.{ts,tsx,html}'
   ],
   theme: {
     screens: {
