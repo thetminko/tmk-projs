@@ -12,7 +12,6 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
-    "baseUrl": "./src"
   },
   "exclude": [
     "out-tsc",

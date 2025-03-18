@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --font-sans: 'Inter';
+    --font-sans: 'Inter Variable', san-serif;
     --black: 0 0% 0.2%;
     --white: 0 0% 98%;
   }
