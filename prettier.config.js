@@ -9,7 +9,9 @@ const config = {
   trailingComma: 'none',
   bracketSameLine: true,
   printWidth: 120,
-  quoteProps: 'consistent'
+  quoteProps: 'consistent',
+  tailwindConfig: './libs/shared/ui/tailwind.config.js',
+  plugins: ['prettier-plugin-tailwindcss']
 };
 
 module.exports = config;
