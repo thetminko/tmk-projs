@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@fontsource-variable/geist": "^5.2.5",
     "@fontsource-variable/inter": "^5.2.5",
     "@nestjs/common": "^10.0.2",
     "@nestjs/core": "^10.0.2",
@@ -24,7 +25,8 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "^1.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",

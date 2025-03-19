@@ -1,11 +1,18 @@
-import { Sidebar } from '@tmk-projs/ui';
+import { SidebarInset, SidebarProvider, ThemeProvider } from '@tmk-projs/ui';
 import { ToDoList } from '../components/ToDoList';
+import { AppSidebar } from '../components/AppSidebar';
+import { AppHeader } from '../components/AppHeader';
 
 export function App() {
   return (
-    <div className="flex h-full flex-row space-x-4 p-4">
-      <Sidebar />
-      <ToDoList className="flex-1" />
-    </div>
+    <ThemeProvider defaultTheme="dark">
+      <SidebarProvider>
+        <AppSidebar />
+        <SidebarInset>
+          <AppHeader />
+          <ToDoList className="flex-1" />
+        </SidebarInset>
+      </SidebarProvider>
+    </ThemeProvider>
   );
 }
