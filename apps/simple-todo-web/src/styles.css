@@ -10,6 +10,10 @@
     --black: 0 0% 0.2%;
     --white: 0 0% 98%;
   }
+  html, body, #root {
+    @apply h-dvh;
+    @apply max-h-dvh;
+  }
 }
 
 /* Change this to update theme */
