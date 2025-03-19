@@ -2,7 +2,7 @@ import { cn, H1, P } from '@tmk-projs/ui';
 import { AddTask } from './AddTask';
 import { TaskItem } from './TaskItem';
 import { AddEditTask } from './AddEditTask';
-import { useReducer, useState } from 'react';
+import { useReducer } from 'react';
 
 export type TaskListProps = React.HTMLAttributes<HTMLDivElement>;
 
